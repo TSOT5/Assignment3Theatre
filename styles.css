@@ -1,0 +1,165 @@
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.text {
+    font-size: 800%;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 15px;
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.featured-shows {
+    text-align: center;
+}
+
+.show-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+.map-section img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.icon-location, .icon-mail, .icon-phone {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #007BFF; 
+    margin-right: 10px;
+}
+
+.info-section ul li, .social-section ul li {
+    margin-bottom: 5px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.image-container .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);  
+    color: white;
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+}
+
+.navbar-title a {
+    font-size: 24px;  
+    font-weight: bold;  
+    padding: 5px 15px;  
+    background-color: black;  
+    border-radius: 5px;  
+}
+
+.show-listings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+}
+
+.show img {
+    width: 25%; 
+    height: auto;
+}
+
+.show-info {
+    flex: 1; 
+}
+
+.show h3 {
+    font-size: 18px; 
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.show p {
+    margin: 5px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    width: 25%;
+    background-color: #ddac26; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px; 
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #555; 
+}
+
+hr {
+    width: 50%;           
+    height: 1px;          
+    background-color: #333; 
+}
+
+.date-box {
+    border: 2px solid #333;    
+    padding: 10px 20px;        
+    font-size: 18px;           
+    width: 50%;        
+    text-align: left;        
+    margin: 20px auto;         
+    background-color: #f7f7f7; 
+}
+
+.map {
+    width: 20%;
+    height: 80%;
+}
